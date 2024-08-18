@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="horizontal"
+    android:background="@drawable/bg4">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="80dp">
+
+<!--        android:background="@drawable/login_page">-->
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IOT ROBOARM"
+            android:textStyle="bold"
+            android:paddingTop="20dp"
+            android:textSize="20sp"
+            android:fontFamily="serif"
+            android:layout_gravity="center">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MOBILE APP CONTROL"
+            android:textStyle="bold"
+            android:paddingTop="10dp"
+            android:textSize="20sp"
+            android:fontFamily="serif"
+            android:layout_gravity="center">
+        </TextView>
+
+        <ImageView
+            android:id="@+id/gambarlengan"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/lengan2" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/buttonkeluar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:text="keluar"/>
+
+            <Button
+                android:id="@+id/buttonmulai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:layout_marginLeft="60dp"
+                android:text="mulai"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
